@@ -1,0 +1,159 @@
+ /* Font Definitions */
+ @font-face
+	{font-family:verdana, arial, helvetica, sans-serif;}
+ /* Style Definitions */
+body {
+	background-image: url(/webtools/images/Page_BG.png);
+	background-repeat: repeat-x;
+	margin-left: 0px;
+	margin-top: 0px;
+	background-color: #c0d1d2;
+}
+#PageContainer {
+	width: 900px;
+	margin-top: -7px;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: #FFFFFF;
+	background-image: url(/webtools/images/Footer.gif);
+	background-repeat: no-repeat;
+	background-position: bottom;
+	padding-top: 0px;
+	padding-bottom: 77px;
+}
+#MainBody {
+	padding: 0px;
+}
+#webtools{
+	width:800px;
+	margin: auto;
+	padding: 12px;
+}
+#webtools td.dotted{
+	margin:0in;
+	line-height:130%;
+	font-size:9.5pt;
+	text-align:left;
+	color:grey;
+	font-family:verdana, arial, helvetica, sans-serif;	
+	border-top:solid #A0522D 1.5pt;
+	padding-top:7px;
+	padding-bottom:21px;
+	height:.2in;
+}
+a.mailto{
+	color: #396892;
+}
+td.dotted{
+	margin:0in;
+	line-height:130%;
+	font-size:9.5pt;
+	text-align:left;
+	color:grey;
+	font-family:verdana, arial, helvetica, sans-serif;	
+	border-top:solid #A0522D 1.5pt;
+	padding:2.15pt 5.75pt 2.15pt 5.75pt;
+	height:.2in;
+}
+a.result	{
+	font-size: 10px;
+	font-family:verdana, arial, helvetica, sans-serif;
+	text-decoration:underline;
+	color: green;
+}
+#show a.aboldunder {
+	font-size: 10px;
+	font-family:verdana, arial, helvetica, sans-serif;
+	text-decoration:underline;
+	font-weight: bold;
+	color: green;
+	!important;
+}
+font.abold	{
+	font-size: 10px;
+	font-family:verdana, arial, helvetica, sans-serif;
+	font-weight: bold;
+	color: green;
+}
+ p.bodyFormat,td.bodyFormat{
+	margin:0in;
+	line-height:14px;
+	font-size:10px;
+	text-align:left;
+	color:#396892;
+	font-family:verdana, arial, helvetica, sans-serif;	
+	padding:0.15pt 5.75pt 0.15pt 5.75pt; /*first:space from top to body. Second: space from right to body. Third: space from botton to body. Fourth: space from left to body*/
+}
+td.cmpAddress,div.cmpAddress{
+	/*line-height:1pt;*/
+	font-size:13px;
+	font-family:"Arial";
+	text-align:center;
+	padding:0.15pt 5.75pt 0.15pt 5.75pt;
+}
+p.Thankyou{
+	margin-top:20.0pt;
+	text-align:center;
+	font-size:9.5pt;
+	font-family:"Trebuchet MS";
+	text-transform:uppercase;
+	font-weight:bold;
+}
+p.ColumnHeadings{
+	margin-top:1.0pt;
+	margin-bottom:.0001pt;
+	text-align:center;
+	font-size:12pt;
+	font-family:"Trebuchet MS";
+	text-transform:uppercase;
+	font-weight:bold;
+}
+p.bldItlc{
+	margin:0in;
+	color:white;
+	font-size:12.0pt;
+	font-family:"Trebuchet MS";
+	font-weight:bold;
+	text-align:center;
+	text-decoration:underline;
+}
+table.searchbox{
+	margin:0in;
+	/*line-height:130%;*/
+	text-align:left;
+	color:#396892;
+	font-size:10.0pt;
+	font-family:verdana, small arial, helvetica, sans-serif;	
+	border-top:solid #3B5E91 1.0pt;
+	border-left:solid #3B5E91 1.0pt;
+	border-bottom:solid #3B5E91 1.0pt;
+	border-right:solid #3B5E91 1.0pt;	
+}
+#searchbox_noborders table.searchbox_noborders{
+	margin:0in;
+	/*line-height:130%;*/
+	text-align:left;
+	color:#396892;
+	font-size:10.0pt;
+	font-family:verdana, small arial, helvetica, sans-serif;	
+	!important;
+}
+.PageBody{
+	background-image: url(/webtools/images/Page_BG.png);
+	background-repeat: repeat-x;
+	margin-left: 0px;
+	margin-top: 0px;
+	background-color: #c0d1d2;
+}
+#backTop{
+	margin:0 0 7px 533px;
+	font-size: 10px;
+	font-family:verdana, arial, helvetica, sans-serif;
+	text-decoration:underline;
+	font-weight: bold;
+	color: red;
+}
+.pageBlock{
+	padding-top: 52px;
+}
+ /* Page Definitions */
